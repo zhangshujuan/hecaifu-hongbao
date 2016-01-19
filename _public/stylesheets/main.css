@@ -1,0 +1,498 @@
+[data-dpr="2"] body {
+  font-size: 24px;
+}
+[data-dpr="3"] body {
+  font-size: 36px;
+}
+body,
+ul,
+h1,
+p,
+ul,
+span {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  -moz-user-select: none;
+  font-size: 62.5%;
+  background: #fac134;
+}
+* {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-family: "Microsoft Yahei", "SimSun,Arial", "Helvetica", "sans-serif";
+}
+header {
+  height: 1.87733333rem;
+  line-height: 1.87733333rem;
+  text-align: center;
+  font-size: 0.768rem;
+  background: #000;
+}
+header .return {
+  float: left;
+  background: url("images/return.png") no-repeat;
+  padding-left: 0.53333333rem;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  margin-left: 0.64rem;
+  height: 0.768rem;
+  line-height: 0.768rem;
+  margin-top: 0.55466667rem;
+  color: #fff;
+}
+header .title {
+  color: #fff;
+  width: 70%;
+  float: left;
+}
+header .share {
+  float: right;
+  background: url("images/share.png") no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  margin-right: 0.64rem;
+  height: 0.21333333rem;
+  width: 0.93866667rem;
+  margin-top: 0.832rem;
+}
+.top {
+  background: url("images/ray.png") no-repeat;
+  height: 15.296rem;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+}
+.top .logo {
+  background: url("images/logo.png") no-repeat;
+  margin-left: 0.64rem;
+  height: 2.304rem;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+}
+.top .red-bg {
+  background: url("images/reb-bag.png") center 0rem no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  height: 20.224rem;
+  margin-top: -10.66666667rem;
+}
+.top .money {
+  background: url("images/money1.png") right no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  float: right;
+  height: 9.024rem;
+  width: 14.86933333rem;
+  margin-top: -1.06666667rem;
+}
+.top .red-title {
+  text-align: center;
+}
+.top .red-title img {
+  height: 6.336rem;
+  width: 12.88533333rem;
+  display: inline-block;
+  margin-top: -0.64rem;
+}
+.register-info {
+  margin-top: 7.424rem;
+}
+.phone {
+  height: 1.984rem;
+  line-height: 1.984rem;
+  width: 75%;
+  margin-top: 1.216rem;
+  margin-left: 10%;
+  padding-left: 5%;
+  border: 2px solid #632523;
+  -webkit-border-radius: 0.21333333rem;
+  -moz-border-radius: 0.21333333rem;
+  border-radius: 0.21333333rem;
+}
+.vefiry-info {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 0.64rem;
+}
+.vefiry {
+  width: 50%;
+  float: left;
+  height: 1.984rem;
+  line-height: 1.984rem;
+  padding-left: 5%;
+  border: 2px solid #632523;
+  -webkit-border-radius: 0.21333333rem;
+  -moz-border-radius: 0.21333333rem;
+  border-radius: 0.21333333rem;
+}
+.get-vifiry-btn {
+  float: right;
+  width: 4.69333333rem;
+  height: 2.06933333rem;
+  line-height: 2.06933333rem;
+  background: url("images/get-verify.png") no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+.check {
+  color: #632523;
+  font-size: 0.64rem;
+  width: 80%;
+  float: left;
+  background: url("images/check.png") no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  padding-left: 1.216rem;
+  margin: 0.64rem 0.64rem 0.64rem 10%;
+}
+.get {
+  background: url("images/get-btn.png") no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  height: 2.28266667rem;
+  line-height: 2.28266667rem;
+  float: left;
+  width: 12.94933333rem;
+  margin-left: 10%;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.024rem;
+}
+.lunk-list {
+  float: left;
+  margin-top: 2.96533333rem;
+  margin-left: 5%;
+  width: 90%;
+}
+line.left,
+line.right {
+  float: left;
+  height: 0rem;
+  /* width:140/@ppr; */
+  width: 20%;
+  margin-top: 0.64rem;
+  border-bottom: 0.064rem solid #e29721;
+}
+line.left,
+icon.left {
+  float: left;
+}
+line.right,
+icon.right {
+  float: right;
+}
+.center-info {
+  background: #e29721;
+  height: 1.45066667rem;
+  line-height: 1.45066667rem;
+  /* width:380/@ppr; */
+  width: 55%;
+  float: left;
+  -webkit-border-radius: 0.21333333rem;
+  -moz-border-radius: 0.21333333rem;
+  border-radius: 0.21333333rem;
+  margin-left: 2.5%;
+  color: #7c4d04;
+  font-size: 0.768rem;
+  text-align: center;
+  font-weight: bold;
+}
+icon.left,
+icon.right {
+  background: url("images/star.png") no-repeat;
+  width: 0.512rem;
+  height: 0.53333333rem;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  margin-top: 0.46933333rem;
+}
+icon.left {
+  margin-left: 0.46933333rem;
+}
+icon.right {
+  margin-right: 0.46933333rem;
+}
+.list-info {
+  height: 3.41333333rem;
+  border-bottom: 0.064rem solid #e29721;
+  float: left;
+  width: 100%;
+}
+.list-info:last-child {
+  border: none;
+}
+.lunk-head {
+  margin-bottom: 0.64rem;
+  float: left;
+  width: 100%;
+}
+.head-icon {
+  background: url("images/head.png") no-repeat;
+  width: 2.09066667rem;
+  height: 2.09066667rem;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  margin-top: 0.66133333rem;
+  float: left;
+}
+.person-info {
+  float: left;
+  margin-left: 0.74666667rem;
+}
+.person-info .phone-num {
+  color: #2a0905;
+  font-size: 0.64rem;
+  margin: 0.74666667rem 0rem 0.36266667rem 0rem;
+}
+.person-info .data-info {
+  color: #7c4d04;
+  font-size: 0.42666667rem;
+}
+.red-num {
+  float: right;
+  color: #d42417;
+  font-size: 0.768rem;
+  height: 3.41333333rem;
+  line-height: 3.41333333rem;
+}
+.rule {
+  float: left;
+  margin-top: 0.64rem;
+  margin-left: 5%;
+  width: 90%;
+}
+.rule .center-info {
+  /* width:294/@ppr; */
+  width: 40%;
+}
+.rule line {
+  /* width:180/@ppr; */
+  width: 27.5%;
+}
+.rule-body {
+  margin-top: 0.64rem;
+  float: left;
+}
+.rule-body p {
+  color: #7c4d04;
+  font-size: 0.512rem;
+}
+/**使用红包*/
+.red-packet-info {
+  text-align: center;
+  margin-top: 7.424rem;
+}
+.red-packet-info p {
+  color: #2a0905;
+  font-size: 0.512rem;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 0.42666667rem;
+  margin-top: 0.42666667rem;
+  text-align: left;
+}
+.red-packet-info p strong {
+  color: #fed72d;
+  font-weight: normal;
+}
+.red-packet-num {
+  background: url("images/redbg.png") no-repeat;
+  width: 12.8rem;
+  height: 5.16266667rem;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  display: inline-block;
+  margin-top: 1.17333333rem;
+}
+.red-packet-left {
+  width: 25%;
+  float: left;
+  color: #d22912;
+  font-size: 1.28rem;
+  text-align: center;
+  margin-top: 0.91733333rem;
+  font-weight: bold;
+}
+.red-packet-right {
+  width: 75%;
+  float: right;
+  text-align: center;
+  vertical-align: middle;
+}
+.num-bg {
+  background: #fff7a8;
+  -webkit-border-radius: 0.21333333rem;
+  -moz-border-radius: 0.21333333rem;
+  border-radius: 0.21333333rem;
+  width: 7.552rem;
+  height: 3.34933333rem;
+  display: inline-block;
+  margin-top: 0.91733333rem;
+  font-size: 2.56rem;
+  color: #d22912;
+  font-weight: bold;
+}
+.num-bg span {
+  font-size: 2.13333333rem;
+  color: #d22912;
+}
+.download {
+  text-align: center;
+  width: 80%;
+  float: left;
+  margin-left: 10%;
+  margin-top: 2.56rem;
+}
+.download .download-app {
+  display: inline-block;
+  text-align: center;
+  background: url("images/blue-btn.png") no-repeat;
+  width: 12.928rem;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  height: 2.26133333rem;
+  line-height: 2.26133333rem;
+  font-size: 1.024rem;
+  color: #0f455f;
+}
+.lunk-list[remark=download-next] {
+  margin-top: 1.28rem !important;
+}
+/*抢完了**/
+.num-bg.over {
+  font-size: 2.13333333rem;
+  color: #888;
+}
+/**活动未登录*/
+.activity-top {
+  text-align: center;
+  background: url("images/topbg.png") no-repeat;
+  width: 100%;
+  height: 10.09066667rem;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.activity-logo {
+  background: url("images/logo1.png") no-repeat;
+  width: 4.24533333rem;
+  height: 1.6rem;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  margin: 0.85333333rem 0.93866667rem;
+  float: left;
+}
+.theme {
+  background: url("images/character-good.png") no-repeat;
+  width: 15.168rem;
+  height: 10.96533333rem;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  display: inline-block;
+  margin-top: -1.70666667rem;
+}
+.bottom {
+  float: left;
+  background: #d22912;
+}
+.bottom .lunk-head .center-info {
+  color: #490d03;
+  background: #a8210e;
+}
+.bottom .lunk-head .center-info icon.left,
+.bottom .lunk-head .center-info icon.right {
+  background: url("images/star1.png") no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+}
+.bottom .lunk-head line {
+  border-color: #a8210e;
+}
+.bottom .rule-body p {
+  color: #f6a399;
+}
+.bottom .rule {
+  margin-top: 1.28rem;
+}
+.bottom .rule .lunk-head {
+  margin-bottom: 1.06666667rem;
+}
+.register-info[remark=activity-register] {
+  margin-top: 2.24rem !important;
+}
+/**登录后*/
+.activity-info {
+  text-align: center;
+  margin-top: 3.41333333rem;
+}
+.activity-info .activity-get {
+  background: url("images/get-btn.png") no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  height: 2.28266667rem;
+  line-height: 2.28266667rem;
+  width: 12.94933333rem;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.024rem;
+  display: inline-block;
+  margin-top: 1.28rem;
+}
+.activity-info p {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 0.576rem;
+  text-align: left;
+  font-size: 0.512rem;
+  color: #2a0905;
+}
+.activity-info p a {
+  color: #d22912;
+  text-decoration: underline;
+}
+.activity-info-top {
+  background: url("images/activity-bg.png") no-repeat;
+  width: 13.86666667rem;
+  height: 7.25333333rem;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  display: inline-block;
+}
+.activity-num {
+  font-weight: bold;
+  font-size: 2.34666667rem;
+  color: #d22912;
+  text-align: center;
+  margin-top: 0.96rem;
+  height: 3.84rem;
+  line-height: 3.84rem;
+}
+.activity-num span {
+  font-size: 1.70666667rem;
+  color: #d22912;
+}
+
+/*# sourceMappingURL=main.css.map*/
